@@ -13,7 +13,7 @@ const CounterInput = ({ dispatch }) => {
           dispatch(amount(parseInt(inputRef.current.value, 10)));
         }}
       >
-        <input placeholder="amount to add" type="number" ref={inputRef} />
+        <input placeholder="amount to add" type="number" required="" ref={inputRef} />
         <button type="submit">add</button>
       </form>
     </div>
